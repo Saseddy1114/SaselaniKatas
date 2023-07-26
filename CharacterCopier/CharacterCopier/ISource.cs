@@ -9,6 +9,6 @@ namespace CharacterCopier
     public interface ISource
     {
         char ReadChar();
-        int ReadChars(char[] chars, int index, int count); 
+        char[] ReadChars(char[] chars, int index, int count); 
     }
 }
